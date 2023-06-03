@@ -1,5 +1,8 @@
 import React from 'react';
 import './navbar.css';
+import logo from "../assests/images/Uc-logo.png"
+
+import flag from "../assests/images/india.png"
 const Navbar = () => {
   return (
     
@@ -8,7 +11,7 @@ const Navbar = () => {
     
       <nav id="navbar">
         <div id="logo">
-            <img src="../assests/images/Uc-logo.png" />
+            <img src={logo} alt='logoImg' />
         </div>
         
         <ul>
@@ -21,7 +24,7 @@ const Navbar = () => {
 
         </ul>
         <div className="dropdown-menu" >
-    <img src="../assests/images/india.png" alt="flag" />
+    <img src={flag} alt="flag" />
     <select name="flag" id="dropdown-content"> 
         <option value="pune">Pune</option> 
         <option value="mumbai">Mumbai</option> 
