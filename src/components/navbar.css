@@ -1,62 +1,95 @@
- @media screen and(max-width:800px) {
-    .left, .main, .right{
-        width: 100%;
-    }
- }
-*{
-    margin:0;
-    padding:0;
-}
 
+*{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
 
 #navbar{
-display: inline;
-align-self: center;
-position: relative; align-items: center;
+display: flex;
+align-items: center;
+position: relative; 
 overflow: hidden;
-
+padding: 0.2rem;
+z-index: 12;
+height: 40px;
+margin: 0px;
+background-color:#fdfdfd;
+margin: 2px,2px;
+padding: 30px 10px;
 }
-
 #logo{
-    display: grid;
-margin: 5px 5px; 
+    background-color: #fdfdfd;
+  cursor: pointer;
+  position: sticky;
+
 }
 
-#navbar ul{
-    display:flex;
-    background-color:rgb(167, 140, 140);
-    position: absolute;
-    z-index: -1;
-    text-decoration: none; list-style-type: none;
-    overflow: hidden;
+#one{
 
+    display: inline;
+    height: 80px;
+    width: 60px;
+    background-color: #fdfdfd;
+    margin: 2px 3px;
+padding: auto;
+
+}
+
+h4{ position: sticky;
+    background-color: #fdfdfd;
+
+}
+#navbar ul{
+    
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #fdfdfd;
+display: inline;
 }
 #navbar ul li{
-    display: flex;
+    
+    background-color: #fdfdfd;
+    display: inline;
     color: black;
     list-style: none;
     font-size: 1rem;
     padding:20px 20px;
     float: right;
+    padding-bottom: 8%;
 }
-ul li a{
-    display: block;
-    padding: 14px 16px;
+ul li a{ background-color: #fdfdfd;
+    display:inline-block ;
+    padding: 2px 15px;
+    /* margin-left: 400px; */
 
 }
- #logo image{
+
+.item{
     display: inline-block;
- }
-
- #dropdown-contect image{
-    display:inline-block;
+    padding: 0px 20px;
 }
 
 .dropdown-menu {
-    float:right;
+    float:right; background-color: #fdfdfd;
     position: relative;
     display: inline;
-    margin-right: 50px;
-    
+    width: 3px;
  }
 
+#flag{
+    background-color:rgb(244, 241, 241);
+    height: 34px;
+    align-items: end;
+    margin-left: 700px;
+    padding: 9px;
+    
+}
+#dropdown-content{
+    background-color:rgb(244, 241, 241);
+    border-radius: 3%;
+    border-style: none;
+    padding: 9px 1px;
+    margin-left: 5;
+    transition: all 0.3s ease 0s;
+}

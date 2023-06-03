@@ -5,7 +5,7 @@ import Container from '../components/container';
 
 const Partners = () => {
   return (
-    <div>partners
+    <div>
       <Navbar />
       <Container/>
       <Footer/>
