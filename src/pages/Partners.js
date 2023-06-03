@@ -1,8 +1,9 @@
 import React from 'react'
+import Stripe from '../components/Partners/stripe';
 
 const Partners = () => {
   return (
-    <div>partners</div>
+    <div><Stripe /></div>
   )
 }
 
