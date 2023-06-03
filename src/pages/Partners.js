@@ -8,7 +8,7 @@ const Partners = () => {
   return (
     <div>
       <Navbar />
-      <Container/>
+      {/* <Container/> */}
       <Stripe />
       <Footer/>
     </div>
