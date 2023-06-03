@@ -1,13 +1,13 @@
 $color: skyblue;
 $primaryColor: red;
-$thirdColor: #8d66f9;
-$fourthColor: #8a4cff;
+$thirdColor: rgba(180,22,27,1);
+$fourthColor: rgba(180,22,27,1);
 $whiteColor: #e0e0e0;
 $blackColor: #0D0D0D;
 $lightBlackColor: rgba(13, 13, 13, 0.8);
 
 .background {
-    background: linear-gradient(91.41deg, $thirdColor .15%, $fourthColor 99.82%);
+    background: linear-gradient(91.41deg, #ffffff .15%, #ffffff 99.82%);
     padding: 2rem 0;
     text-align: center;
     border-radius: 10px;
@@ -15,13 +15,13 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
     margin-left: auto;
 
     h2 {
-        color: $whiteColor;
+        color: $blackColor;
         font-weight: 600;
     }
 
     .joinButton {
-        background-color: $whiteColor !important;
-        color: $fourthColor;
+        background-color: $thirdColor !important;
+        color: $whiteColor;
         padding: 15px;
         font-weight: bold;
         font-size: 18px;
@@ -42,22 +42,22 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
         font-weight: normal;
         font-size: 16px;
         line-height: 19px;
-        color: $whiteColor;
+        color: $blackColor;
         padding: 15px;
-        border: 1.5px solid $whiteColor;
-        outline: $whiteColor;
+        border: 1.5px solid $blackColor;
+        outline: $blackColor;
         border-radius: 4px;
         // border-right: none;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
 
         :focus {
-            outline: $whiteColor;
+            outline: $blackColor;
         }
     }
 
     ::placeholder {
-        color: $whiteColor;
+        color: $blackColor;
         opacity: 1;
     }
 
@@ -67,10 +67,10 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
         font-weight: normal;
         font-size: 16px;
         line-height: 19px;
-        color: $whiteColor;
-        border: 2.5px solid $whiteColor;
-        border-right: 1px solid $whiteColor;
-        outline: $whiteColor;
+        color: $blackColor;
+        border: 2.5px solid $blackColor;
+        border-right: 1px solid $blackColor;
+        outline: $blackColor;
         border-radius: 4px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
