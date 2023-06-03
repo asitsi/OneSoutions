@@ -4,22 +4,17 @@ import React from 'react';
 import styles from '../../styles/partnerstript.module.scss';
 
 // Images
-import IndianFlag from '../../assests/images/indian-flag.png';
 
 // Mui
-import { Box, Paper } from '@mui/material';
-import TextField from '@mui/material/TextField';
-import Autocomplete from '@mui/material/Autocomplete';
-import Button from '@mui/material/Button';
+import { Box, Paper, Button } from '@mui/material';
+
+// components
+import Popup from '../popup/popup';
+import CustomDropDown from '../CustomDropDown/CustomDropDown';
 
 const Stripe = () => {
-    const options = [
-        { label: 'Option 1', value: 'option1' },
-        { label: 'Option 2', value: 'option2' },
-        { label: 'Option 3', value: 'option3' },
-        { label: 'Option 4', value: 'option4' },
-        // Add more options as needed
-    ];
+    const [ButtonPopup, setButtonPopup] = React.useState(false);
+
     return (
         <React.Fragment>
             <Paper elevation={3} className={styles.background}>
@@ -31,20 +26,36 @@ const Stripe = () => {
                     alignItems="center"
                 >
                     <Box display="flex">
-                        <select className={styles.select}>
-                            <option value="+91" selected><span><img src={IndianFlag} alt="indiaflag" className={styles.flagImage} /></span> +91</option>
-                            <option value="option2">Option 2</option>
+                        <CustomDropDown />
+                        {/* <select className={styles.select}>
+                            <option value="+91" selected imagesrc={IndianFlag}>
+                                <span>
+                                    <img src={IndianFlag} alt="indiaflag" className={styles.flagImage} /> +91
+                                </span>
+                            </option>
+                            <option value="option2">Option 2 </option>
                             <option value="option3" >Option 3</option>
                             <option value="option4">Option 4</option>
-                        </select>
+                        </select> */}
                         <input className={styles.phonenumber} placeholder='Your phone number' />
                     </Box>
-                    <Button className={styles.joinButton}>
+                    <Button className={styles.joinButton} onClick={() => setButtonPopup(true)}>
                         Join Us
                     </Button>
                 </Box>
-                <img src={IndianFlag} alt="indiaflag" className={styles.flagImage} />
             </Paper>
+            <Popup
+                trigger={ButtonPopup}
+                setTrigger={setButtonPopup}
+                className="Popup"
+                style={{ padding: '1.5rem 0 0 0' }}>
+                <div className="popup-inner" style={{ width: '100%', margin: '0', padding: '0' }}>
+                    <div style={{padding: '1rem', display: 'flex',alignItems:'center'}}>
+                        <img src='https://cdn.pixabay.com/photo/2013/07/13/10/06/affirmative-156538_640.png' alt='rightImage' style={{width: '110px', height: '110px',marginRight: '1rem'}}/>
+                        <h2 className='text-capitalize'>Thank you, we have received your details. Our team will get in touch with you on WhatsApp soon. Also you can download the Urban Company Partner app from</h2>
+                    </div>
+                </div>
+            </Popup>
         </React.Fragment>
     )
 }
