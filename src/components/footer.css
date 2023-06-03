@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#footer{
+    align-self: end;
+    display: flexbox;
+    position: relative;
+    background-color: rgb(171, 38, 233);
+    border-radius: 3%;
+    padding: 35px 60px;
+    margin: 50px 30px;
+
+}
+
+.content{
+    color: white;
+background-color: rgb(171, 38, 233);
+}
+
+button{ padding: 5px 13px;
+    margin: 8px;
+    border: none;
+    border-radius: 3px;
+    font-weight:600;
+    color:blue;
+    background-color: white;
+    align-content: center;
+}
+
+input{ 
+    padding: 5px 5px;
+    margin-left:170px;
+background-color:rgb(191, 115, 226) ;
+color: whitesmoke;
+font-weight: 500;
+border: 6px 4px;
+border-color: white;
+border-radius: 5px;
+border-style: groove;
+
+}

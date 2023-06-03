@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(217, 245, 236);
+}
+
+#container{
+    display:inline;
+    align-items: center;
+}
+h3{
+    align-items: center;
+}
+p{
+    display: inline;
+    align-items: left;
+}
