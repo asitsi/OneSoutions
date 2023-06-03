@@ -8,6 +8,7 @@ const Partners = () => {
     <div>
       <Navbar />
       <Container/>
+      <Stripe />
       <Footer/>
     </div>
   )
