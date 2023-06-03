@@ -1,8 +1,10 @@
 import React from 'react';
+// css
 import './navbar.css';
-import logo from "../assests/images/Uc-logo.png"
-
+// images
+import logo from "../assests/images/logo.png"
 import flag from "../assests/images/india.png"
+
 const Navbar = () => {
   return (
     
