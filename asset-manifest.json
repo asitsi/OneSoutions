@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/OneSoutions/static/css/main.1a7ca502.css",
-    "main.js": "/OneSoutions/static/js/main.a19eae4c.js",
+    "main.css": "/OneSoutions/static/css/main.8d9d4e70.css",
+    "main.js": "/OneSoutions/static/js/main.f17ab79f.js",
     "static/js/787.2223dfdc.chunk.js": "/OneSoutions/static/js/787.2223dfdc.chunk.js",
+    "static/media/indian-flag.png": "/OneSoutions/static/media/indian-flag.1df1b0861c0cd65e674e.png",
     "index.html": "/OneSoutions/index.html",
-    "main.1a7ca502.css.map": "/OneSoutions/static/css/main.1a7ca502.css.map",
-    "main.a19eae4c.js.map": "/OneSoutions/static/js/main.a19eae4c.js.map",
+    "main.8d9d4e70.css.map": "/OneSoutions/static/css/main.8d9d4e70.css.map",
+    "main.f17ab79f.js.map": "/OneSoutions/static/js/main.f17ab79f.js.map",
     "787.2223dfdc.chunk.js.map": "/OneSoutions/static/js/787.2223dfdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a7ca502.css",
-    "static/js/main.a19eae4c.js"
+    "static/css/main.8d9d4e70.css",
+    "static/js/main.f17ab79f.js"
   ]
 }
