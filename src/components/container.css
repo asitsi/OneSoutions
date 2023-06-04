@@ -1,22 +1,22 @@
 /* 
 
-/* #container{
+ #container{
     display:flex;
     align-items: center;
   margin: 100px 80px;
   flex-direction: row;
 
-} */
-/* h3 {
+} 
+ h3 {
     align-items: center;
 }
 p {
     display: inline;
     align-items: left;
-} */
+} 
 
 
-/* #footer{
+ #footer{
     align-self: end;
     display: flexbox;
     position: relative;
@@ -25,14 +25,13 @@ p {
     padding: 35px 60px;
     margin: 50px 30px;
 
-} */
+} 
 
-/* .content{
+ .content{
     color: white;
 background-color: rgb(171, 38, 233);
-} */
-
-/* button{ padding: 5px 13px;
+} 
+button{ padding: 5px 13px;
     margin: 8px;
     border: none;
     border-radius: 3px;
@@ -54,3 +53,41 @@ border-radius: 5px;
 border-style: groove;
 
 }  */
+@media screen and (max-width:850px){
+    .main-div{
+      max-width: 850;
+    }
+  }
+
+.main-div{
+    align-items: center;
+    padding-top: 10px;
+    
+}
+.heading{
+margin-left:400px;
+margin-bottom: 0%;
+padding-bottom: 0%;
+}
+.para{
+    margin-left: 220px;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.number{
+    color: rgb(21, 229, 21);
+    margin-left: 300px;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+ .sec-para p{
+    margin-left: 220px;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+ }
+
+

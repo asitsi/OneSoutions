@@ -8,8 +8,8 @@ const Partners = () => {
   return (
     <div>
       <Navbar />
-      {/* <Container/> */}
       <Stripe />
+      <Container/>
       <Footer/>
     </div>
   )

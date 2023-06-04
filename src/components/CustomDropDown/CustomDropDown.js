@@ -27,6 +27,7 @@ const CustomDropDown = () => {
     };
 
     return (
+
         <div className={styles.select}>
             <div className={styles.optionSelect} onClick={toggleDropdown}>
                 <img src={selectedOptionImg} alt="countryflagimage" className={styles.flagImage} /> <span style={{ marginLeft: '12px' }}>{selectedOptionLabel}</span> {!isOpen ? <ArrowDropDownIcon /> : <ArrowDropUpIcon />}
@@ -51,6 +52,7 @@ const CustomDropDown = () => {
                 </div>
             )}
         </div>
+        
     );
 };
 

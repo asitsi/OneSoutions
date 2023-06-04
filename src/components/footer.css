@@ -23,14 +23,17 @@ bottom: 0;
 } */
 
 
-.social-icons .fa{
+/* .social-icons .fa{
     width: 50px;
     height: 100px;
     border-radius: 50%;
     display: grid;
-    /* line-height: 40px; */
+    justify-content: space-between;
+    color: black;
 
-}
+    line-height: 40px;
+
+} */
 
 /* .row img{
     height: 20px;

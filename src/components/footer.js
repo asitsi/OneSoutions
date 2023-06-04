@@ -2,25 +2,25 @@ import React from 'react'
 import './footer.css';
 import googleplay from "../assests/images/googleplay.png";
 import appstore from "../assests/images/appstore.png";
-// import InstagramIcon from '@mui/icons-material';
 
+import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
-// import TwitterIcon from '@mui/icons-material';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-// import LinkedInIcon from '@mui/icons-material';
 import styles from '../styles/footer.module.scss';
 
 const Footer = () => {
   return (
     <React.Fragment>
-      <div className="footer">
+      <div className={styles.mainfooter}><hr/>
         <div className={styles.footerContainer}>
-          <div className="row">
+          <div className={styles.footer}>
 
             {/* column 1 */}
-            <div className='col'>
+            <div className={styles.headtable}>
               <h4>Company</h4>
-              <ul className='list-unstyled'>
+              <ul className={styles.listunstyled}>
                 <li>
                   <a href='/'> About us</a>
                 </li>
@@ -38,9 +38,9 @@ const Footer = () => {
 
             {/* column 2*/}
 
-            <div className='col'>
+            <div className={styles.headtable}>
               <h4>For Professionals</h4>
-              <ul className='list-unstyled'>
+              <ul className={styles.listunstyled}>
                 <li><a href='/'>Privacy Policy</a></li>
                 <li><a href='/'>Partner Welfare Policy</a></li>
                 <li><a href='/'>Terms & conditions</a></li>
@@ -51,28 +51,28 @@ const Footer = () => {
 
             {/* column 3 */}
 
-            <div className='col'>
+            <div className={styles.headtable}>
               <h4>For Customers</h4>
-              <ul className='list-unstyled'>
+              <ul className={styles.listunstyled}>
                 <li><a href='/'>Book a service</a></li>
               </ul>
             </div>
             {/* column 4 */}
 
-            <div className="col">
+            <div className={styles.headtable}>
               <h4>Social Links</h4>
-              <ul className='social-icons'>
+              <ul className={styles.socialicons}>
                 <li>
                   <a href='/' target='_blank'>
                     <FacebookIcon />
                   </a>
                   <a href='/' >
-                    {/* <icon className="fa twitter" src={TwitterIcon}></icon> */}
+                    <InstagramIcon/>
                   </a>
                   <a href='/' target='_blank'>
-                    {/* <icon className="fa insta" src={InstagramIcon} ></icon> */}
+                    <TwitterIcon/>
                   </a>
-                  {/* <icon className="fa linkedin" src={LinkedInIcon}></icon> */}
+                  <a href="/" target="_blank"><LinkedInIcon/></a>
                 </li>
               </ul>
             </div>
@@ -80,17 +80,17 @@ const Footer = () => {
 
           <hr />
           
-          <div className='row'>
-            <p className='col-sm'>
+          <div className={styles.copyright}>
+            <p className={styles.bottom}>
               @copy;{new Date().getFullYear()}UrbanClap Technologies India Pvt. Ltd.
-            </p>
             <img src={googleplay} alt='googleplay' />
             <img src={appstore} alt="appstore" />
+            </p>
           </div>
         </div>
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default Footer;
