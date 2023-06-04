@@ -54,10 +54,10 @@ const Stripe = () => {
                             <option value="option3" >Option 3</option>
                             <option value="option4">Option 4</option>
                         </select> */}
-                            <input type='number' className={styles.phonenumber} placeholder='Your phone number' name='Number' />
+                            <input type='text' className={styles.phonenumber} placeholder='Your phone number' name='Number' />
                         </Box>
                         <Button type="submit" className={styles.joinButton}>
-                            {loading ? "Loading" : "Join Us"}
+                            {loading ? "Loading..." : "Join Us"}
                         </Button>
                     </form>
                 </Box>

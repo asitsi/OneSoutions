@@ -107,21 +107,22 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
 @media (min-width: 768px) {
     .background {
         width: 750px;
+
     }
 
-    .formData {
-        display: block;
-    }
+    
 }
 
 @media (min-width: 992px) {
     .background {
         width: 970px;
     }
+
 }
 
 @media (min-width: 1200px) {
     .background {
         width: 1170px;
     }
+
 }
