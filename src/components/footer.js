@@ -31,7 +31,7 @@ const Footer = () => {
                   <a href='/'>Information Security Policy Statement</a>
                 </li>
                 <li>
-                  <a>Careers</a>
+                  <a href='/'>Careers</a>
                 </li>
               </ul>
             </div>
@@ -64,7 +64,7 @@ const Footer = () => {
               <ul className='social-icons'>
                 <li>
                   <a href='/' target='_blank'>
-<FacebookIcon />
+                    <FacebookIcon />
                   </a>
                   <a href='/' >
                     {/* <icon className="fa twitter" src={TwitterIcon}></icon> */}
@@ -76,10 +76,10 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-
           </div>
 
           <hr />
+          
           <div className='row'>
             <p className='col-sm'>
               @copy;{new Date().getFullYear()}UrbanClap Technologies India Pvt. Ltd.
