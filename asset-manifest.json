@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/OneSoutions/static/css/main.414c5ea7.css",
+    "main.css": "/OneSoutions/static/css/main.e7458d84.css",
     "main.js": "/OneSoutions/static/js/main.0d7f271f.js",
     "static/js/787.2223dfdc.chunk.js": "/OneSoutions/static/js/787.2223dfdc.chunk.js",
     "static/media/partner_hero_india_cover.png": "/OneSoutions/static/media/partner_hero_india_cover.ff3875709e66a23f476a.png",
     "static/media/logo.png": "/OneSoutions/static/media/logo.e95e30eac0273e8f6f04.png",
     "static/media/indian-flag.png": "/OneSoutions/static/media/indian-flag.1df1b0861c0cd65e674e.png",
     "index.html": "/OneSoutions/index.html",
-    "main.414c5ea7.css.map": "/OneSoutions/static/css/main.414c5ea7.css.map",
+    "main.e7458d84.css.map": "/OneSoutions/static/css/main.e7458d84.css.map",
     "main.0d7f271f.js.map": "/OneSoutions/static/js/main.0d7f271f.js.map",
     "787.2223dfdc.chunk.js.map": "/OneSoutions/static/js/787.2223dfdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.414c5ea7.css",
+    "static/css/main.e7458d84.css",
     "static/js/main.0d7f271f.js"
   ]
 }
