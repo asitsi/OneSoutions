@@ -14,6 +14,7 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
     margin-right: auto;
     margin-left: auto;
 
+
     h2 {
         color: $blackColor;
         font-weight: 600;
@@ -132,6 +133,7 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
     .background {
         padding: 1rem;
         margin: 1rem;
+        position: relative;
     }
     h2 {
         font-size: 18px !important;
@@ -142,9 +144,10 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
 
     .joinButton {
         width: -webkit-fill-available;
-        margin-top: 5px;
+        margin-top: 5px !important;
+        margin-left: 0 !important;
     }
     .phonenumber {
-        font-size: revert !important;
+        width: 100% !important;
     }
 }
