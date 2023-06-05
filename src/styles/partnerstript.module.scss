@@ -8,15 +8,16 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
 
 .background {
     background: linear-gradient(91.41deg, #ffffff .15%, #ffffff 99.82%);
-    padding: 2rem 0;
+    padding: 1rem 0;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px !important;
     margin-right: auto;
     margin-left: auto;
 
     h2 {
         color: $blackColor;
         font-weight: 600;
+        font-size: 22px;
     }
 
     .formData {
@@ -28,7 +29,7 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
     .joinButton {
         background-color: $thirdColor !important;
         color: $whiteColor;
-        padding: 15px;
+        padding: 15px 20px;
         font-weight: bold;
         font-size: 18px;
         line-height: 25px;
@@ -125,4 +126,25 @@ $lightBlackColor: rgba(13, 13, 13, 0.8);
         width: 1170px;
     }
 
+}
+
+@media (max-width: 768px) {
+    .background {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+    .formData {
+      display: block !important;
+    }
+
+    .joinButton {
+        width: -webkit-fill-available;
+        margin-top: 5px;
+    }
+    .phonenumber {
+        font-size: revert !important;
+    }
 }

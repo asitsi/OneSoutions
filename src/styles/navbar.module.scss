@@ -25,6 +25,13 @@
             text-decoration: none;
             list-style: none;
             gap: 5rem;
+
+            .navLocationItems {
+              border: none;
+              background-color:rgba(117,130,131,0.2);
+              padding: 0.7rem 1rem;
+              outline: none;
+            }
         }
           
         .navItem a{
@@ -40,6 +47,7 @@
         .container {
           width: 750px;
         }
+
       }
       @media (min-width: 992px) {
         .container {
@@ -61,4 +69,11 @@
 
      
       
+}
+
+@media (max-width: 768px) {
+  .navItem {
+    display: none !important;
+  }
+  
 }

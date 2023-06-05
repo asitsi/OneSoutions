@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from '../components/navbar';
-import Footer from '../components/footer';
-import Container from '../components/container';
-import Stripe from '../components/Partners/stripe';
+import PartnerHomeScreen from '../components/partnerHomeScreen';
+import PartnersStats from '../components/Partners/partnersStats';
+import PartnersFooter from '../components/Partners/partnersFooter';
 
 const Partners = () => {
   return (
     <div>
       <Navbar />
-      <Stripe />
-      <Container/>
-      <Footer/>
+      <PartnerHomeScreen />
+      <PartnersStats />
+      <PartnersFooter />
     </div>
   )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
- import './container.css';
+import './container.css';
+import { Paper } from '@mui/material';
 
 const Container = () => {
   return (
-  <>
-    {/* <div >
+    <>
+      {/* <div >
       <h3>Earn More. Earn Reespect. <br />
       Safety Ensured.</h3><br />
       <p>
@@ -20,37 +21,27 @@ const Container = () => {
     
   </div> */}
 
-<div className='main-div'>
-  <div className='heading'>
-    <h2>Join Urban Company to change your life</h2>
-    </div>
-    <div className='para'> <p>
-      Urban Company is an app-based marketplace that empowers professional like you to become your own boss
-    </p>
-    </div>
-    <div className='number'>
-     <p>40,000+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-      ₹1547Cr&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-      1,250,000+
-
-     </p>
-    </div>
-    <div className='sec-para'>
-
-      <p>Partners already on board&emsp;&emsp;&emsp;&emsp;&emsp;
-     
-       Paid out to partners in {new Date().getFullYear()}
-       &emsp;&emsp;&emsp;&emsp;
-     
-       Service delivered each month
-     </p>
-    </div>
-
-
-  </div>
-
-
-</>
+      <div className='main-div'>
+        <div className='heading'>
+          <h1>Join One Solutions to change your life</h1>
+          <p>One Solutions is an app-based marketplace that empowers professional like you to become your own boss</p>
+        </div>
+        <div className='cards'>
+          <Paper className='card-paper'>
+            <h1>40,000+</h1>
+            <h6>Partners already on board</h6>
+          </Paper>
+          <Paper className='card-paper'>
+            <h1>₹1547Cr</h1>
+            <h6>Paid out to partners in {new Date().getFullYear()}</h6>
+          </Paper>
+          <Paper className='card-paper'>
+            <h1>1,250,000+</h1>
+            <h6>Service delivered each month</h6>
+          </Paper>
+        </div>
+      </div>
+    </>
   )
 }
 

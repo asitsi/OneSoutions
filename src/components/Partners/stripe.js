@@ -70,7 +70,7 @@ const Stripe = () => {
                 <div className="popup-inner" style={{ width: '100%', margin: '0', padding: '0' }}>
                     <div style={{ padding: '1rem', display: 'flex', alignItems: 'center' }}>
                         <img src='https://cdn.pixabay.com/photo/2013/07/13/10/06/affirmative-156538_640.png' alt='rightImage' style={{ width: '110px', height: '110px', marginRight: '1rem' }} />
-                        <h2 className='text-capitalize'>Thank you, we have received your details. Our team will get in touch with you on WhatsApp soon. Also you can download the Urban Company Partner app from</h2>
+                        <h2 className='text-capitalize'>Thank you, we have received your details. Our team will get in touch with you on WhatsApp soon. Also you can download the One Solutions Company Partner app from</h2>
                     </div>
                 </div>
             </Popup>

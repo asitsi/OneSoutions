@@ -21,17 +21,13 @@ const Navbar = () => {
                         <ul className={styles.navItem}>
                             <li className="item" ><a href='/'>Book a service</a></li>
                             <li className="item"><a href='/'>About Us</a></li>
-                            <li>
-                                <div className="dropdown-menu" >
-                                    <ul>
-                                        <select name="flag" id="dropdown-content">
-                                            <option value="pune">Pune</option>
-                                            <option value="mumbai">Mumbai</option>
-                                            <option value="delhi">Delhi</option>
-                                            <option value="goa">Goa</option>
-                                        </select>
-                                    </ul>
-                                </div>
+                            <li className="item">
+                                <select className={styles.navLocationItems}>
+                                    <option value="pune">Pune</option>
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="delhi">Delhi</option>
+                                    <option value="goa">Goa</option>
+                                </select>
                             </li>
                         </ul>
 

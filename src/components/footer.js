@@ -82,7 +82,7 @@ const Footer = () => {
           
           <div className={styles.copyright}>
             <p className={styles.bottom}>
-              @copy;{new Date().getFullYear()}UrbanClap Technologies India Pvt. Ltd.
+              @copy;{new Date().getFullYear()}One Solutions Technologies India Pvt. Ltd.
             <img src={googleplay} alt='googleplay' />
             <img src={appstore} alt="appstore" />
             </p>
