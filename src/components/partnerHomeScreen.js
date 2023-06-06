@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/partnerhomescreen.module.scss';
 import Stripe from './Partners/stripe';
-import HomeImage from '../assests/images/partner_hero_india_cover.png'; 
+import HomeImage from '../assests/images/home-screen-img.png'; 
 
 const PartnerHomeScreen = () => {
     return (
