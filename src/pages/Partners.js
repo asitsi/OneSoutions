@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/navbar';
-import PartnerHomeScreen from '../components/partnerHomeScreen';
+import PartnerHomeScreen from '../components/Partners/partnerHomeScreen';
 import PartnersStats from '../components/Partners/partnersStats';
 import PartnersFooter from '../components/Partners/partnersFooter';
 

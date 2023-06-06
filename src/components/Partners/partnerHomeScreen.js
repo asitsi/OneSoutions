@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../styles/partnerhomescreen.module.scss';
-import Stripe from './Partners/stripe';
-import HomeImage from '../assests/images/home-screen-img.png'; 
+import styles from '../../styles/partnerhomescreen.module.scss';
+import Stripe from './stripe';
+import HomeImage from '../../assests/images/home-screen-img.png'; 
 
 const PartnerHomeScreen = () => {
     return (
@@ -12,7 +12,7 @@ const PartnerHomeScreen = () => {
                         <div className={styles.column}>
                             <div>
                                 <h1>Earn More. Earn Respect. Safety Ensured.</h1>
-                                <p>Join 40,000+ partners across India, USA, Singapore, UAE and many more</p>
+                                <p>Join the most creative and enthusiastic Work community to accelerate your business.</p>
                             </div>
                         </div>
                         <div className={styles.column}>
