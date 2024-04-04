@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/OneSoutions/static/css/main.0c172a41.css",
-    "main.js": "/OneSoutions/static/js/main.016ef41e.js",
+    "main.css": "/OneSoutions/static/css/main.6a29bf4a.css",
+    "main.js": "/OneSoutions/static/js/main.0ea0fd34.js",
+    "static/css/912.616fd385.chunk.css": "/OneSoutions/static/css/912.616fd385.chunk.css",
+    "static/js/912.67035b70.chunk.js": "/OneSoutions/static/js/912.67035b70.chunk.js",
     "static/js/787.2223dfdc.chunk.js": "/OneSoutions/static/js/787.2223dfdc.chunk.js",
+    "static/js/334.542c11b7.chunk.js": "/OneSoutions/static/js/334.542c11b7.chunk.js",
     "static/media/home-screen-img.png": "/OneSoutions/static/media/home-screen-img.4f5dd715ed61ceb0208e.png",
     "static/media/logo.png": "/OneSoutions/static/media/logo.e95e30eac0273e8f6f04.png",
     "static/media/indian-flag.png": "/OneSoutions/static/media/indian-flag.1df1b0861c0cd65e674e.png",
     "index.html": "/OneSoutions/index.html",
-    "main.0c172a41.css.map": "/OneSoutions/static/css/main.0c172a41.css.map",
-    "main.016ef41e.js.map": "/OneSoutions/static/js/main.016ef41e.js.map",
-    "787.2223dfdc.chunk.js.map": "/OneSoutions/static/js/787.2223dfdc.chunk.js.map"
+    "main.6a29bf4a.css.map": "/OneSoutions/static/css/main.6a29bf4a.css.map",
+    "main.0ea0fd34.js.map": "/OneSoutions/static/js/main.0ea0fd34.js.map",
+    "912.616fd385.chunk.css.map": "/OneSoutions/static/css/912.616fd385.chunk.css.map",
+    "912.67035b70.chunk.js.map": "/OneSoutions/static/js/912.67035b70.chunk.js.map",
+    "787.2223dfdc.chunk.js.map": "/OneSoutions/static/js/787.2223dfdc.chunk.js.map",
+    "334.542c11b7.chunk.js.map": "/OneSoutions/static/js/334.542c11b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c172a41.css",
-    "static/js/main.016ef41e.js"
+    "static/css/main.6a29bf4a.css",
+    "static/js/main.0ea0fd34.js"
   ]
 }
